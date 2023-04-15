@@ -18,7 +18,7 @@ jobs:
         node-version: [ 18.x ]
 
     steps:
-      - uses: project-senjuko/setup-conch-actionkit-rust@v0.1
+      - uses: StarWishsama/setup-conch-actionkit-rust@v0.0.1
 
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
